@@ -1,4 +1,4 @@
-let mainTimer = 10; // 20 minutes in seconds
+let mainTimer = 1200; // 20 minutes in seconds
 let timerInterval;
 const minutesElement = document.getElementById("minutes");
 const secondsElement = document.getElementById("seconds");
