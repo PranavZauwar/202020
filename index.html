@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>20-20-20 Rule Timer</title>
+</head>
+<body>
+    <div class="timer-container">
+        <div class="timer">
+            <div class="countdown">
+                <span id="minutes">20</span>
+                <span>:</span>
+                <span id="seconds">00</span>
+            </div>
+        </div>
+        <div class="message">
+            <span>Look Away!</span>
+        </div>
+        <button id="startButton">Start</button>
+        <button id="stopButton" disabled>Stop</button>
+    </div>
+    <audio id="audio" loop>
+        <source src="background_music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <script src="script.js"></script>
+</body>
+</html>

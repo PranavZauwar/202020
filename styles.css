@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.timer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.timer {
+    font-size: 3rem;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.countdown {
+    display: flex;
+    align-items: center;
+}
+
+.message {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #007acc;
+    display: none;
+    margin-top: 1rem;
+    align-items: center;
+    background-color: #ffcc00; /* Set the background color here */
+    padding: 20px; /* Add padding to make the background more visible */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+button:hover {
+    background-color: #555;
+}
